@@ -11,5 +11,10 @@ app.get('/login',(req,res)=> {
 app.get('/register',(req,res)=> {
     res.render("register.ejs")
 } )
+
+app.get('/gall',(req,res)=> {
+    res.render("gall.ejs")
+} )
+
 //end routes
 app.listen(3000)
